@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../external.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>add-course</title>
+    <style>body{background-image: url(../images/add.avif);
+    background-repeat: no-repeat;
+background-size:cover ;}
+        </style>
+</head>
+<body>
+<!-- haeder -->
+    <header id="header">
+        <nav class="nav">
+            <h1><i class="fa-solid fa-graduation-cap"></i>ONLINE COURSES</H1>
+        <ul>
+        <li><a href="index.html" >HOME</a></li>
+        <li> <a href="mycouces.html" >MY-COURSES</a></li>
+        <li> <a href="addcources.html" >ADD-COURSE</a></li>
+        <li> <a href="contactus.html" >CONTACT-US</a></li>
+        </ul>
+        </nav>
+    </header>
+    <br>
+    <!-- main start -->
+<main class="add">
+    <section class="container" >
+<div class="content-add">ADD COURSE<i class="fa-solid fa-plus"></i></div>
+<br>
+<!-- form start -->
+<form method="get">
+    <!-- 1 -->
+    <div class="name">
+    <label for="name"><i class="fa-solid fa-person"></i>USER NAME</label>
+    <input  id="name" type="text"  name="user name"></div>
+    <br>
+    <br>
+    <!-- 1 END -->
+    <!-- 2 -->
+    <div  class="id">
+    <label for="id"><i class="fa-solid fa-sd-card"></i>ID</label>
+    <input type="text" name="id" maxlength="5" minlength="5" name="id" id="id"></div>
+    <br>
+    <br>
+    <!-- 2END -->
+    <!-- 3-->
+    <div class="course">
+    <label for="course-name"><i class="fa-solid fa-route"></i>course NAME</label>
+    <select name="course-name" id="course-name" >
+        <optgroup label="programing">
+            <option value="front-end">front-end</option>
+            <option value="back-end">back-end</option>
+            <option value="full-stack">full-stack</option>
+        </optgroup>
+        <optgroup label="sceince">
+            <option value="biology">biology</option>
+            <option value="chemistry">chemistry</option>
+            <option value="electronics">electronics</option>
+        </optgroup>
+        <optgroup label="mathmatics">
+            <option value="math1">math1</option>
+            <option value="math2">math2</option>
+            <option value="math3">math3</option>
+        </optgroup>
+    </select>
+    </div>
+    <br>
+    <br>
+    <!-- 3 END -->
+    <!-- 4-->
+    <div class="instr">
+    <label for="inst"><i class="fa-solid fa-person-chalkboard"></i>instructor</label>
+    <select name="instructor" id="inst" >
+        <optgroup label="programing">
+            <option value="DR:AHMED">DR:AHMED</option>
+            <option value="DR:MOHAMED">DR:MOHAMED</option>
+            <option value="DR:RAWDA">DR:RAWDA</option>
+        </optgroup>
+        <optgroup label="sceince">
+            <option value="DR:SAMY">DR:SAMY</option>
+            <option value="DR:RANDA">DR:RANDA</option>
+            <option value="DR:RAMY">DR:RAMY</option>
+        </optgroup>
+        <optgroup label="mathmatics">
+            <option value="DR:KARMEN">DR:KARMEN</option>
+            <option value="DR:KARY">DR:KARY</option>
+            <option value="DR:MAZEN">DR:MAZEN</option>
+        </optgroup>
+    </select>
+    </div>
+    <br>
+    <br>
+    <!-- 4 END -->
+    <!-- 5-->
+    <div class="hour">
+    <label for="no"> <i class="fa-regular fa-clock"></i>HOUR-NO</label>
+    <input type="number" name="hour" id="no">
+    </div>
+    <br>
+    <br>
+    <!-- 5 END -->
+    <!-- 6 -->
+    <div class="notes" >
+    <label FOR="NOTES"><i class="fa-solid fa-notes-medical"></i>ADD NOTES</label>
+    <BR>
+    <textarea placeholder="ADD NOTES" ID="NOTES"></textarea>
+    </div>
+    <br>
+    <br>
+    <!-- 6END -->
+<!-- 7 start -->
+    <div>
+    <button><i class="fa-solid fa-hurricane"></i>submit</button>
+    </div>
+    <br>
+    <br>
+    <!-- end 7 -->
+</form>
+    </section>
+</main>
+</body>
+<footer>
+        <div class="one"> Online Courses
+Empowering learners worldwide by providing access to high-quality education and expert-led online courses.</div>
+<div class="two">
+How to contact with us?
+Email: support@onlinecourses.com
+Phone: +123 456 7890
+Location: Cairo, Egypt</div>
+<div class="three">
+Follow Us
+Stay updated with our latest courses and education news on our social media channels.
+© 2026 Online Courses. All rights reserved.</div>
+<a href="addcources.html" target="_top">  <i class="fa-solid fa-angles-up" id="btn"></i>move to top</a>
+</footer>
+
+</html>
